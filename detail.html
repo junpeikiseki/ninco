@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScriptの屋敷</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/detail.css">
+  <link rel="stylesheet" href="css/btn.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner inner">
+      <h1 class="logo">
+        <a href="index.html"><img src="img/logo_black.png" alt="" /></a>
+      </h1>
+      <div class="header-links">
+        <nav class="menu">
+          <a href="list.html?category=men">MEN</a>
+          <a href="list.html?category=woman">WOMEN</a>
+          <a href="list.html?category=kids">KIDS</a>
+        </nav>
+        <div class="controls">
+          <a href="" class="controls-cart"><img src="img/icon_cart_black.svg" alt="" />
+            <span class="cart-batch">1</span>
+          </a>
+        </div>
+      </div>
+      <form action="">
+        <button type="submit" class="word-submit"></button>
+        <input type="text" class="word-search" placeholder="何かお探しですか？" name="freeword" />
+      </form>
+      <a href="#" class="menu-trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </header>
+
+  <div id="page-detail" class="contents">
+
+    <div class="item-detail inner">
+      <div class="item-detail-main">
+        <img src="img/item/21.png" alt="" data-zoom-image="img/item/21_l.png">
+        <p class="mouse-note">画像にマウスを合わせると拡大します</p>
+      </div>
+      <div class="item-detail-info">
+        <h2 class="item-detail-name">シャツ</h2>
+        <div class="item-detail-brand">BRAND：<span>FFF</span></div>
+        <div class="item-size">
+          <div class="item-size-select">Select Size：<span>130</span></div>
+          <ul class="item-size-list">
+            <li>130</li>
+            <li>140</li>
+            <li>150</li>
+            <li>160</li>
+            <li>170</li>
+            <li>180</li>
+            <li>190</li>
+          </ul>
+        </div>
+        <div class="item-detail-price">¥<span>4200</span></div>
+        <div class="btn btn--cart"><span>カートに追加する</span></div>
+        <div class="btn btn--fav"><span>お気に入りに入れる</span></div>
+        <div data-accordion="trigger">商品の説明を見る</div>
+        <div data-accordion="target">ダミーダミーダミーダミーダミー</div>
+      </div>
+    </div>
+
+  </div><!-- contents-->
+
+  <div class="inner">
+    <section class="c-section">
+      <div class="c-section-head">
+        <h2 class="c-section-title">レビューをする</h2>
+      </div>
+      <ul class="review">
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+      </ul>
+    </section>
+    <section class="c-section">
+      <div class="c-section-head">
+        <h2 class="c-section-title">PICK UP</h2>
+      </div>
+      <ul class="item-list thumbnail-list">
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/11.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/24.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="c-section">
+      <div class="c-section-head">
+        <h2 class="c-section-title">お気に入りしたアイテム♡</h2>
+        <a href="" class="more-link">もっと見る</a>
+      </div>
+      <ul class="item-list">
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/11.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/24.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+        <li class="item">
+          <a href="">
+            <div class="item-cap"><img src="img/item/58.png" alt="" loading="lazy"></div>
+            <div class="item-info">
+              <h3 class="item-name">シャツ</h3>
+              <p class="item-text">テキストテキストテキスト</p>
+              <div class="item-price">¥2200</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner inner">
+      <div class="footer-logo">NINCO</div>
+      <ul class="sns">
+        <li>
+          <a href=""><img src="img/facebook.png" alt="" class="sns-icon"><span class="sns-name">Facebook</span></a>
+        </li>
+        <li>
+          <a href=""><img src="img/twitter.png" alt="" class="sns-icon"><span class="sns-name">Twitter</span></a>
+        </li>
+        <li>
+          <a href=""><img src="img/instagram.png" alt="" class="sns-icon"><span class="sns-name">Instagram</span></a>
+        </li>
+      </ul>
+    </div>
+    <ul class="footer-link">
+      <li>ヘルプ</li>
+      <li>お問い合わせ</li>
+      <li>利用規約</li>
+      <li>採用情報</li>
+      <li>©︎ NINKO Co., Ltd.</li>
+    </ul>
+  </footer>
+
+
+
+  <script src="js/item_data.js"></script>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/jquery.elevatezoom.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
